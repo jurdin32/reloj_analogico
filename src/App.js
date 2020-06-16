@@ -22,6 +22,7 @@ class Reloj extends Component{
     }
 
     setInterval(() => {
+      //crea un objeto que trae la hora y fecha
       const dt = new Date();
       console.log(this.state)
       if( this.state.hora>=12){
